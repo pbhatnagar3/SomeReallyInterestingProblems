@@ -1,6 +1,20 @@
+/**
+ * Some really interesting partitioning and the ranking algorithm and all of it in linear time
+ * @author pbhatnagar
+ * If you have any questions or comments, please feel free to contact
+ * me at pbhatnagar3@gatech.edu
+ *
+ * MAY THE FORCE OF COMPILER BE WITH YOU. :D
+ */
 //finds the median or the nth order element in a array
 public class RankFinder {
-
+/*
+ * So the partition method takes in one of elements of the array as the input in variable pivot. 
+ * And then it manipulates the array and returns the index of the last element of left partition.
+ * There is no guarantee that the pivot will be in the appropriate middle. 
+ * OUTPUT : This is the only thing that is required to make partition work. This is the index of the last element in the left 
+ * partition.
+ */
 	public int partition(int[] array, int left, int right, int pivot){
 		//we are assuming that there is a value of a pivot already there
 		while(left <= right){
