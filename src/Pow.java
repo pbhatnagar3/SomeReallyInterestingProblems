@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Testing one of the methods that is used in Cryptography for finding the very large powers. Super cool.
+ * Testing one of the methods that is used in Cryptography for finding the very large powers. Super cool.:D
  * @author pbhatnagar
  * If you have any questions or comments, please feel free to contact
  * me at pbhatnagar3@gatech.edu
